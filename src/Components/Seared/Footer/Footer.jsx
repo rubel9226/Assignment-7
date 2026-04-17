@@ -24,7 +24,7 @@ const Footer = () => {
                             <AiFillInstagram />
                         </Link>
 
-                        <Link to={'https://www.facebook.com/md.rubel.hossen.955098'} target="_blank" rel="noopener noreferrer" className='text-2xl bg-white text-black rounded-full p-2' >
+                        <Link target="_blank" rel="noopener noreferrer" className='text-2xl bg-white text-black rounded-full p-2' >
                             <FaFacebook />
                         </Link>
 
