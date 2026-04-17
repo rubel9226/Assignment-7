@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "john.doe@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["college", "close friend"],
+    "bio": "Studied Computer Science together at university. We often go hiking on weekends.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "email": "ayesha.rahman@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["school", "best friend"],
+    "bio": "Best friend from school. We regularly catch up over phone calls.",
+    "goal": 10,
+    "next_due_date": "2025-07-27"
+  },
+  {
+    "id": 3,
+    "name": "Michael Lee",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "email": "michael.lee@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["gym", "fitness"],
+    "bio": "Gym partner who motivates me to stay consistent with workouts.",
+    "goal": 15,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "Cousin who lives nearby. We meet during family gatherings.",
+    "goal": 10,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "email": "david.kim@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["client", "business"],
+    "bio": "Worked together on a freelance web development project last year.",
+    "goal": 20,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 6,
+    "name": "Fatima Noor",
+    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "email": "fatima.noor@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["university", "classmate"],
+    "bio": "University classmate. We collaborate on assignments and group projects.",
+    "goal": 12,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 7,
+    "name": "Imran Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "email": "imran.hossain@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["friend", "workshop"],
+    "bio": "Met at a programming workshop. We discuss coding topics regularly.",
+    "goal": 10,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 8,
+    "name": "Sarah Ahmed",
+    "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+    "email": "sarah.ahmed@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["office", "colleague"],
+    "bio": "Colleague from office. We work on the same team in the development department.",
+    "goal": 14,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 9,
+    "name": "Chris Evans",
+    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "email": "chris.evans@gmail.com",
+    "days_since_contact": 28,
+    "status": "overdue",
+    "tags": ["remote", "project"],
+    "bio": "Collaborated on a remote project. Haven't checked in for a while.",
+    "goal": 18,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 10,
+    "name": "Tanvir Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/10.jpg",
+    "email": "tanvir.hasan@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["neighbor"],
+    "bio": "Neighbor and good friend. We often spend evenings chatting together.",
+    "goal": 7,
+    "next_due_date": "2025-07-29"
+  }
+]
