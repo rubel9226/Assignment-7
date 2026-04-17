@@ -11,8 +11,6 @@ import FriendDetails from "../Components/FriendDetails/FriendDetails";
 
 
 
-// const friends= fetch('friendsData.json').then(res => res.json());
-
 
 const router = createBrowserRouter([
   {

@@ -2,11 +2,13 @@ import React, { Suspense } from 'react';
 import { useLoaderData } from 'react-router';
 import FriendCard from '../../Components/ui/FriendCard';
 import Hero from '../../Components/Seared/Hero/Hero';
+import { ClipLoader } from 'react-spinners';
 
 
 
 const HomePage = () => {
     const friends = useLoaderData();
+
 
     // console.log(friends);
     return (
@@ -15,13 +17,11 @@ const HomePage = () => {
                 <Hero friends={friends}></Hero>
                 <hr className='text-black/10 my-10' />
 
-                <Suspense fallback={<span className="loading loading-spinner loading-2xl"></span>}>
                     <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 w-11/12 md:w-full mx-auto'>
                         {
                             friends.map(friend => <FriendCard key={friend.id} friend={friend} />)
                         }
                     </div>
-                </Suspense>
             </div>
         </div>
     );

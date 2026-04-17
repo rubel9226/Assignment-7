@@ -18,7 +18,7 @@ const FriendCard = ({friend}) => {
 
                     <div className='flex gap-1 mb-2'>
                     {
-                        tags.map(tag => <button className="font-medium bg-green-200 text-green-800 text-sm px-3 py-1.5 rounded-full capitalize">{tag}</button>)
+                        tags.map((tag, index) => <button key={index} className="font-medium bg-green-200 text-green-800 text-sm px-3 py-1.5 rounded-full capitalize">{tag}</button>)
                     }
                     </div>
                     
