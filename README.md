@@ -38,7 +38,7 @@ Fully responsive and optimized for mobile, tablet, and desktop devices.
 
 ## 🔗 Live Demo
 
-👉 [(Live site: )](https://keenkeeper-lite.netlify.app/)
+👉 [(Live site: KeenKeeper )](https://keenkeeper-lite.netlify.app/)
 
 ---
 
