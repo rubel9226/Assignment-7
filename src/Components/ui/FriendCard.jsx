@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router';
 
 const FriendCard = ({friend}) => {
-    const { bio, days_since_contact, email, goal, id, name, nex_due_date, picture, status, tags } = friend;
+    const { bio, days_since_contact,  id, name, nex_due_date, picture, status, tags } = friend;
 
      
     return (
