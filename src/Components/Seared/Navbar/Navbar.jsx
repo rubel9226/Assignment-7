@@ -8,7 +8,8 @@ import { ImStatsDots } from "react-icons/im";
 const Navbar = () => {
   return (
     <div className="bg-base-100 shadow-sm">
-      <div className="navbar container mx-auto flex ">
+
+      <div className="navbar container mx-auto flex">
 
         <div className="flex justify-between w-full">
             <div className="navbar-start">
@@ -19,13 +20,13 @@ const Navbar = () => {
                 
             <ul className="flex gap-2 px-1">
                 <li className="font-bold">
-                    <NavLink to={'/'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && ' bg-green-900 text-white'}`}><RiHome2Line className="text-xl" /> Home</NavLink>
+                    <NavLink to={'/'} className={({isActive}) => `flex btn items-center ${isActive && ' bg-green-900 text-white'}`}><RiHome2Line className="text-xl" /> Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/time-line'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && 'bg-[#FFBB2B] text-white'}`}><MdOutlineWatchLater/> Timeline</NavLink> 
+                    <NavLink to={'/time-line'} className={({isActive}) => `flex btn items-center ${isActive && 'bg-[#FFBB2B] text-white'}`}><MdOutlineWatchLater/> Timeline</NavLink> 
                 </li>
                 <li>
-                    <NavLink to={'/stats'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && 'bg-[#00C49F] text-white'}`}><ImStatsDots /> Stats</NavLink>
+                    <NavLink to={'/stats'} className={({isActive}) => `flex btn items-center ${isActive && 'bg-[#00C49F] text-white'}`}><ImStatsDots /> Stats</NavLink>
                 </li>
             </ul>
             </div>
@@ -40,14 +41,15 @@ const Navbar = () => {
                 <NavLink to={'/'} className={({isActive}) => `py-1 ${isActive ? ' bg-green-900 text-white font-semibold' : ""}`}><RiHome2Line className="text-xl" /> Home</NavLink>
               </li>
               <li>
-                <NavLink to={'/time-line'} className={({isActive}) => `py-1 ${isActive ? ' bg-green-900 text-white font-semibold' : ""}`}><MdOutlineWatchLater/> Timeline</NavLink>
+                <NavLink to={'/time-line'} className={({isActive}) => `py-1 ${isActive ? 'bg-[#FFBB2B] text-white font-semibold' : ""}`}><MdOutlineWatchLater/> Timeline</NavLink>
               </li>
               <li>
-                <NavLink to={'/stats'} className={({isActive}) => `py-1 ${isActive ? ' bg-green-900 text-white font-semibold' : ""}`}><ImStatsDots /> Stats</NavLink>
+                <NavLink to={'/stats'} className={({isActive}) => `py-1 ${isActive ? ' bg-[#00C49F] text-white font-semibold' : ""}`}><ImStatsDots /> Stats</NavLink>
               </li>
             </ul>
         </div>
       </div>
+
     </div>
   );
 };

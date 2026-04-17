@@ -11,10 +11,10 @@ const Hero = ({friends}) => {
     const { knockFriends } = useContext(FriendContext);
 
     return (
-        <div className='pt-20'>
+        <div className=''>
             <div className='text-center mb-10'>
-                <h1 className='text-5xl font-bold'>Friends to keep close in your life</h1>
-                <p className='text-black/60 mt-4 mb-8'>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br />relationships that matter most.</p>
+                <h1 className='text-3xl md:text-5xl font-bold'>Friends to keep close in your life</h1>
+                <p className='text-black/60 text-sm md:text-[16px] mt-4 mb-8'>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br className='hidden md:block' />relationships that matter most.</p>
                 <button className='btn bg-green-800 text-white'><FaPlus /> Add a Friend</button>
             </div>
             <div>

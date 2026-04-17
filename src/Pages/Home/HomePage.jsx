@@ -10,13 +10,13 @@ const HomePage = () => {
 
     // console.log(friends);
     return (
-        <div className='bg-base-200 pb-20'>
-            <div className='min-h-[55vh] container xl:w-300 mx-auto'>
+        <div className='bg-green-800/15 py-8 md:py-20'>
+            <div className='min-h-[55vh] container xl:w-300 mx-auto w-11/12'>
                 <Hero friends={friends}></Hero>
                 <hr className='text-black/10 my-10' />
 
                 <Suspense fallback={<span className="loading loading-spinner loading-2xl"></span>}>
-                    <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
+                    <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 w-11/12 md:w-full mx-auto'>
                         {
                             friends.map(friend => <FriendCard key={friend.id} friend={friend} />)
                         }

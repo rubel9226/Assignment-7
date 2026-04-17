@@ -25,16 +25,12 @@ const router = createBrowserRouter([
         {
             index: true,
             loader: () => fetch('/friendsData.json'),
-            element: <Suspense  fallback={<span className="loading loading-spinner loading-2xl"></span>}>
-                <HomePage />
-            </Suspense>
+            Component: HomePage
         },
         {
             path: 'friend/:id',
             loader: () => fetch('/friendsData.json'),
-            element: <Suspense  fallback={<span className="loading loading-spinner loading-2xl"></span>}>
-                <FriendDetails />
-            </Suspense>
+            Component: FriendDetails
         },
         {
             path: 'time-line',
