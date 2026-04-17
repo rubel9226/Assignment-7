@@ -1,16 +1,56 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+KeenKeeper is a modern friendship management web app that helps you stay connected with your friends. It allows you to track your interactions, set relationship goals, and never miss checking in with the people who matter most. With a clean UI and interactive features, managing friendships becomes simple and engaging.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ React.js  
+* 🌐 React Router DOM  
+* 🎨 Tailwind CSS  
+* 📊 Recharts  
+* 🔔 React Toastify  
+* 🎯 React Icons (for UI icons)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+* 📋 **Friend Management System**
+  View all your friends with detailed profiles including status, tags, and last interaction time.
+
+* ⚡ **Quick Check-In & Timeline Tracking**
+  Easily log Call, Text, or Video interactions and automatically track them in a timeline.
+
+* 📊 **Friendship Analytics Dashboard**
+  Visualize your interaction data with charts (Call, Text, Video) using Recharts.
+
+---
+
+## 📱 Responsive Design
+
+Fully responsive and optimized for mobile, tablet, and desktop devices.
+
+---
+
+## 🔗 Live Demo
+
+👉 [(Live site: )](https://keenkeeper-lite.netlify.app/)
+
+---
+
+## 📂 Project Setup
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+Md Rubel Hossen
