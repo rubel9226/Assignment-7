@@ -1,13 +1,16 @@
 import React, { createContext, useState } from 'react';
+import { addLocalStorageData, getLocalStorageData } from '../Utils/LocalDB';
 
 
 export const FriendContext = createContext();
 
 const FriendProvider = ({children}) => {
-    const [knockFriends, setKnockFriend] = useState([]);
+    const [knockFriends, setKnockFriend] = useState(getLocalStorageData);
     
     
     const handleKnockFriend = (name, knockType) => {
+
+
         const todayDate = new Date();
         const date = todayDate.toLocaleDateString('en-US', {
             month: 'short',
@@ -16,12 +19,11 @@ const FriendProvider = ({children}) => {
         });
 
         const knockObject = {name, knockType, date};
-        console.log(knockObject, 'nockObject');
+        addLocalStorageData(knockObject);
+        // console.log(k)
 
-        setKnockFriend(knockFrd => [...knockFrd, knockObject]);
-        
+        setKnockFriend(knockFrd => [...knockFrd, knockObject]);   
     }
-    console.log(knockFriends);
 
     const data ={
         knockFriends,

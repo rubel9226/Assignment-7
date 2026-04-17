@@ -12,7 +12,7 @@ const Navbar = () => {
 
         <div className="flex justify-between w-full">
             <div className="navbar-start">
-                <Link to={'/'} className="gap-0 text-2xl font-semibold cursor-pointer"><span className="font-extrabold">Keen</span>Keeper</Link>
+                <Link to={'/'} className="gap-0 text-3xl font-semibold cursor-pointer text-green-600"><span className="font-extrabold text-green-800">Keen</span>Keeper</Link>
             </div>
 
             <div className="justify-end hidden md:flex">
@@ -22,10 +22,10 @@ const Navbar = () => {
                     <NavLink to={'/'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && ' bg-green-900 text-white'}`}><RiHome2Line className="text-xl" /> Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/time-line'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && 'btn-primary'}`}><MdOutlineWatchLater/> Timeline</NavLink> 
+                    <NavLink to={'/time-line'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && 'bg-[#FFBB2B] text-white'}`}><MdOutlineWatchLater/> Timeline</NavLink> 
                 </li>
                 <li>
-                    <NavLink to={'/stats'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && 'btn-primary'}`}><ImStatsDots /> Stats</NavLink>
+                    <NavLink to={'/stats'} className={({isActive}) => `flex btn items-center gap-0 ${isActive && 'bg-[#00C49F] text-white'}`}><ImStatsDots /> Stats</NavLink>
                 </li>
             </ul>
             </div>
